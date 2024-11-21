@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left-panel {
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('/images/left-image.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    flex: 1.4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 15px; 
+}
+
+#sign-in-button {
+    background-color: #fff;
+    color: #4a3aff;
+    border: 2px solid #4a3aff;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 2px 15px;
+    font-size: 10px;
+}
+
+
+.right-panel {
+    flex: 1.5;
+    padding: 28px 40px;
+}
+.right-panel h1 {
+    margin-bottom: 0px;
+    color: #4a3aff;
+}
+.left-panel h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 12px;
+}
+h5 {
+    color: #4a3aff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-group input {
+    width: 100%; 
+    flex: 1; 
+}
+
+input, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4a3aff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3929ff;
+}
